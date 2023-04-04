@@ -15,7 +15,7 @@
       ], 
       "assets": {
         "host01": [
-          {"file": "program.py", "target": "~/", "chmod": "+w"}
+          {"file": "program.py", "target": "~/resources/", "chmod": "+w"}
         ]
       }
     },
