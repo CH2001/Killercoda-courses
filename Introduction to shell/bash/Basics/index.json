@@ -1,25 +1,6 @@
 {
-    "title": "Chapter 1",
-    "description": "Introduction to bash/ shell",
-    "details": {
-      "intro": {
-        "text": "Introduction.md"
-      },
-      "steps": [
-        {
-          "text": "steps/step1.md"
-        },
-        {
-          "text": "steps/step2.md"
-        }
-      ], 
-      "assets": {
-        "host01": [
-          {"file": "program.py", "target": "~/", "chmod": "+w"}
-        ]
-      }
-    },
-    "backend": {
-      "imageid": "ubuntu"
-    }
+  "title": "Ubuntu simple",
+  "backend": {
+    "imageid": "ubuntu"
+  }
 }
