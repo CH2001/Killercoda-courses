@@ -15,7 +15,9 @@
       ], 
       "assets": {
         "host01": [
-          {"file": "program.py", "target": "~/resources/", "chmod": "+w"}
+          {"file": "program.py", "target": "~/resources/", "chmod": "+w"}, 
+          {"file": "bash_time.sh", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "shell_time.sh", "target": "~/resources/", "chmod": "+rwx"}
         ]
       }
     },
