@@ -6,18 +6,19 @@
         "text": "Introduction.md"
       },
       "steps": [
-        {
-          "text": "steps/step1.md"
-        },
-        {
-          "text": "steps/step2.md"
-        }
+        {"text": "steps/step1.md"},
+        {"text": "steps/step2.md"}, 
+        {"text": "steps/step3.md"}
       ], 
       "assets": {
         "host01": [
           {"file": "program.py", "target": "~/resources/", "chmod": "+w"}, 
           {"file": "bash_time.sh", "target": "~/resources/", "chmod": "+rwx"}, 
-          {"file": "shell_time.sh", "target": "~/resources/", "chmod": "+rwx"}
+          {"file": "shell_time.sh", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "Abraham Lincoln___The Writings of Abraham Lincoln, Volume 1_ 1832-1843.txt", "target": "~/resources/", "chmod": "+rwx"},
+          {"file": "Andrew Lang___The Mark Of Cain.txt", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "Bram Stoker___Dracula.txt", "target": "~/resources/", "chmod": "+rwx"},
+          {"file": "Bram Stoker___The Lady of the Shroud.txt", "target": "~/resources/", "chmod": "+rwx"}
         ]
       }
     },
