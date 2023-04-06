@@ -21,6 +21,6 @@ Manipulate text files and perform operations on them.
 - `-v`: Pass variable from command lien 
 - `-f`: Specify awk script file to use 
 
-Pipe 
-Exec `ls -l | grep "\.sh$"`{{exec}} <br>
-Exec `ls -l | grep -rl "echo"`{{exec}}
+Pipe <br> 
+`ls -l | grep "\.sh$"`{{exec}} <br>
+`ls -l | grep -rl "echo"`{{exec}}
