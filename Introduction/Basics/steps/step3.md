@@ -18,5 +18,3 @@ Intro: Creating txt files
 - `>` to redirect output and overwrite the contents
 - `>>` to append output to a file without overwriting existing contents 
 - `<echo/printf> > <filename>`
-
-

@@ -15,3 +15,7 @@ Exec `cat function3.sh`{{exec}} <br>
 Exec `cat function4.sh`{{exec}} <br>
 5. Function with command substitution
 Exec `cat function5.sh`{{exec}} <br>
+
+Run within a line: 
+Exec `wcd() { echo Hello, world; };`{{exec}}
+Exec `check_number() { if [[ $1 -gt 0 ]]; then echo "$1 is positive"; elif [[ $1 -lt 0 ]]; then echo "$1 is negative"; else echo "The number is zero"; fi; };`{{exec}}

@@ -17,5 +17,3 @@ Exec `printf '%s = %.2f\n' 'Gigahertz' 1.92735`{{exec}}
 Some useful `printf` formatting options: 
 - `%d` or `%f`: print decimals or floating point number
 - `%s`: print strings 
-
-
