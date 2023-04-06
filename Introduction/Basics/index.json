@@ -19,9 +19,11 @@
           {"file": "program.py", "target": "~/resources/", "chmod": "+w"}, 
           {"file": "bash_time.sh", "target": "~/resources/", "chmod": "+rwx"}, 
           {"file": "shell_time.sh", "target": "~/resources/", "chmod": "+rwx"}, 
-          {"file": "Ambrose Bierce___The Damned Thing.txt", "target": "~/resources/", "chmod": "+rwx"},
-          {"file": "Beatrix Potter___The Tale Of Peter Rabbit.txt", "target": "~/resources/", "chmod": "+rwx"}, 
-          {"file": "Beatrix Potter___The Tale of the Flopsy Bunnies.txt", "target": "~/resources/", "chmod": "+rwx"}
+          {"file": "function1.sh", "target": "~/resources/", "chmod": "+rwx"},
+          {"file": "function2.sh", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "function3.sh", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "function4.sh", "target": "~/resources/", "chmod": "+rwx"}, 
+          {"file": "function5.sh", "target": "~/resources/", "chmod": "+rwx"}
         ]
       }
     },
